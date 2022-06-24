@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.root{
+  width: 100vw;
+  height: 222vh;
+}
+
+.head{
+  width: 100vw;
+  height: 10vh;
+  border: 1px solid black;
+  display: flex;
+  position: sticky;
+  background-color: #ccc;
+  top:0px
+}
+
+.main{
+  width: 100vw;
+  height: 212vh;
+  border: 1px solid black;
+  display: flex;
+}
+
+.sidebar{
+  width: 5vw;
+  height: 212vh;
+  border: 1px solid black;
+}
+
+.maingif{
+  width: 95vw;
+  height: 212vh;
+  border: 1px solid black;
+
+}
+
+.maingif>div{
+  width: 95vw;
+  height: 30vh;
+  border: 1px solid black;
+  display: flex;
+}
+
+.maingif>div>div{
+  width: 18vw;
+  height: 28vh;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: #ccc;
+}
+
+.maingif>div>div>img{
+  border: 1px solid black;
+  width: 18vw;
+  height: 20vh;
+}
+
+.maingif>div>div>div{
+  width: 18vw;
+  height: 8vh;
+}
+
+.maingif>div>div>div>p{
+  margin-left: 5px;
+}
+
+
+.maingif>div>div>div>p:nth-child(1){
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.logoham{
+  width: 30vw;
+  height: 10vh;
+  border: 1px solid black;
+}
+
+.hambug{
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+
+
+.search{
+  width: 40vw;
+  height: 10vh;
+  border: 1px solid black;
+
+}
+.submenu{
+  width: 30vw;
+  height: 10vh;
+  border: 1px solid black;
+
+}
