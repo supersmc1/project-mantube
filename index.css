@@ -33,16 +33,17 @@
 .bigsidebar{
   width: 5vw;
   height: 212vh;
+  background-color: white;
 
 }
 .sidebar{
   width: 5vw;
   height: 212vh;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   align-items: center;
-position:fixed;
-
+  position:fixed;
+  background-color: white;
 }
 
 .sidebar>div{
@@ -50,10 +51,22 @@ position:fixed;
   height: 4vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
 }
-.sidebar>div:hover{
+.side1:hover{
+  background-color: #cccc;
+}
+.side2:hover{
+  background-color: #cccc;
+}
+.side3:hover{
+  background-color: #cccc;
+}
+.side4:hover{
+  background-color: #cccc;
+}
+.side5:hover{
   background-color: #cccc;
 }
 
@@ -71,7 +84,7 @@ position:fixed;
 .maingif{
   width: 95vw;
   height: 212vh;
-  background-color: #cccc;
+  background-color: rgba(236, 233, 233, 0.8);
 
 }
 

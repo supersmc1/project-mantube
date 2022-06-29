@@ -111,7 +111,7 @@ const benertext = [
 
 ]
 
-
+//엘리먼트 스타일링
 for(let index = 0; index < maingifchd.length; index++){
     for(let i=0; i<5; i++){
       let ndivs = document.createElement('div')
@@ -149,33 +149,34 @@ for(let index = 0; index < maingifchd.length; index++){
 
     }
 }
-
+//무한스크롤 라이브러리 이해 필요
 while (window.innerHeight * 1.5 > document.body.scrollHeight) {
- addElement();
+ addElement()
 }
 
 window.addEventListener('scroll', (e) => {
-  handleScroll(e);
+  handleScroll(e)
 
 
   
 })
 
 function handleScroll(e) {
-  let height = (window.innerHeight + window.scrollY) - document.body.scrollHeight;
-  console.log(height);
+  let height = (window.innerHeight + window.scrollY) - document.body.scrollHeight
+  //console.log(height)
+  console.log(window.WheelEvent)
   if (height > 0) {
-    addElement();
+    addElement()
   }
-  if(height  < -2036){
-   document.location.reload();
+  if(height  < -2036){//라이브러리에 조건 새로고침 함수를 넣어보았다
+   document.location.reload()
 
   }
 }
 
 function addElement() {
- let newElement = main.cloneNode(true);
- root.appendChild(newElement);
+ let newElement = main.cloneNode(true)
+ root.appendChild(newElement)
 }
 
 
