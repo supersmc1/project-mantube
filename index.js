@@ -119,6 +119,7 @@ for(let index = 0; index < maingifchd.length; index++){
       ndivs.style.height = '28vh'
       ndivs.style.backgroundColor = 'white'
       ndivs.style.margin = '8px'
+      ndivs.style.cursor = 'pointer'
       //console.log(ndivs)
       //console.log(ndivs[0])
       maingifchd[index].appendChild(ndivs)

@@ -46,13 +46,26 @@
   background-color: white;
 }
 
-.sidebar>div{
-  width: 4vw;
-  height: 4vw;
+.basic{
+  width: 5vw;
+  height: 30vh;
   display: flex;
-  flex-direction: column;
-  justify-content:center;
+  flex-direction:column;
   align-items: center;
+  font-size: 0.8rem;
+}
+
+.basic>div{
+  width: 5vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  align-items: center;
+  cursor: pointer;
+}
+.basic>div>i{
+  margin:8px;
 }
 .side1:hover{
   background-color: #cccc;
@@ -70,16 +83,7 @@
   background-color: #cccc;
 }
 
-.sidebar>div>div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.sidebar>div>div>div{
-  margin-top: 10px;
-  font-size: 0.8rem;
-}
+
 
 .maingif{
   width: 95vw;
